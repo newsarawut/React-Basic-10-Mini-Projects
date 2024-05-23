@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(227, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-right: 4px;
+  }
+
+  button.m:active {
+    background: #f47373;
+    color: beige;
+  }
+
+  button.p:active {
+    background: #3af64a;
+    color: white;
+  }
